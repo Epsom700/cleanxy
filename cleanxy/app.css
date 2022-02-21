@@ -94,7 +94,6 @@ body{
 .line{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .line hr{
@@ -102,6 +101,20 @@ body{
   background-color: black;
   width: 3px;
   height: 80px;
+}
+/* page 3 */
+.aobut{
+  display: flex;
+}
+.image2{
+  z-index: -1;
+}
+.aboutCle{
+  z-index: 1;
+  text-align: right;
+  font-size: 1.5rem;
+  max-width: 780px;
+  max-height: 432px;
 }
 @media (max-width: 1000px) {
 
