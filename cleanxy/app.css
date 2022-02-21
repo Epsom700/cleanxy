@@ -42,12 +42,8 @@ body{
   margin-bottom: 30px;
 }
 
-#mainNavbar .navbar-brand{
-    font-size: 1.5rem;
-    font-weight: 100;
-    color: #ea1c2c;
-    padding-top: 0;
-    padding-bottom: 0;
+#mainNavbar .brand{
+  width: 80px;
 }
 
 .image1{
@@ -105,7 +101,6 @@ body{
 .line{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .line hr{
@@ -114,6 +109,52 @@ body{
   width: 3px;
   height: 80px;
 }
+/* page 3 */
+.aobut{
+  display: flex;
+}
+.image2{
+  z-index: -1;
+}
+.aboutCle{
+  opacity: 0.6;
+  z-index: 1;
+  text-align: right;
+  font-size: 1.5rem;
+  max-width: 780px;
+  max-height: 432px;
+}
+
+/* page 4 */
+#table1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+.act{
+  margin-bottom: 5px;
+}
+.tableCol{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+.icon1{
+  width: 200px;
+  
+}
+
+.pg4Heading{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  text-align: center;
+  height: 144px;
+  line-height: 72px;
+}
+
 @media (max-width: 1000px) {
 
   #mainNavbar .oned{
