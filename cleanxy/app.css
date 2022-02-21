@@ -88,6 +88,9 @@ body{
   padding-top: 14rem;
 }
 
+.suplement{
+  display: none;
+}
 
 /*Page 2*/
 
@@ -208,5 +211,27 @@ body{
     justify-content: center;
     align-items: center;
   }
-
+  .suplement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    box-sizing:border-box;
+  }
+  
+  /* edit to so that we can adjust the thing to look exactly like the design */
+  .sub{
+    display: flex;
+    margin: 0;
+    font-size: 1.5rem;
+    width: 70%;
+    box-sizing:content-box;
+  }
 }
