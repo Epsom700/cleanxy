@@ -21,8 +21,20 @@ body{
 
 #mainNavbar .nav-link{
     color: #06022B;
-    
 }
+
+.nav-item .underline
+{
+  height: 5px;
+  width: 50%;
+  margin: 0 auto;
+  transition: .3s;
+}
+.nav-item:hover .underline
+{
+  background-color: #CBF2FA;
+}
+
 
 #mainNavbar .oned{
 
@@ -36,7 +48,6 @@ body{
     color: #ea1c2c;
     padding-top: 0;
     padding-bottom: 0;
-
 }
 
 .image1{
@@ -105,16 +116,15 @@ body{
 }
 @media (max-width: 1000px) {
 
-
-    #mainNavbar .oned{
-        justify-content: center;
-        align-items: center;
-    }
-
-    .image1{
-      padding: 0rem;
+  #mainNavbar .oned{
       justify-content: center;
       align-items: center;
-    }
+  }
+
+  .image1{
+    padding: 0rem;
+    justify-content: center;
+    align-items: center;
+  }
 
 }
