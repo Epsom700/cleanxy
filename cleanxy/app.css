@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,300;1,400&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #06022B;;
+}
+
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar{
+  background-color: white;
+  display: flex;
+    margin: 25px;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: #06022B;
+    
+}
+
+#mainNavbar .oned{
+
+  justify-content:flex-end;
+  margin-bottom: 30px;
+}
+
+#mainNavbar .navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #ea1c2c;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.image1{
+    display: flex;
+    height: 100vh;
+    padding-bottom: 5rem;
+    justify-content: flex-end;
+    align-items:flex-end;
+    z-index: -1;
+}
+.heads{
+  display: flex;
+  padding: 0;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  box-sizing:border-box;
+}
+
+/* edit to so that we can adjust the thing to look exactly like the design */
+.sub{
+  display: flex;
+  margin: 0;
+  font-size: 2rem;
+  width: 70%;
+  box-sizing:content-box;
+}
+.back{
+  padding: 0;
+  padding-top: 14rem;
+}
+
+
+/*Page 2*/
+
+.pg2Heading{
+  padding: 0;
+  font-weight: bolder;
+}
+
+.subtext{
+  font-weight: 100;
+  padding: 0;
+  font-size: 2rem;
+  opacity: 0.6;
+}
+
+.get{
+  margin:30px 0;
+}
+
+.line{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.line hr{
+  opacity: 1;
+  background-color: black;
+  width: 3px;
+  height: 80px;
+}
+@media (max-width: 1000px) {
+
+
+    #mainNavbar .oned{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image1{
+      padding: 0rem;
+      justify-content: center;
+      align-items: center;
+    }
+
+}
