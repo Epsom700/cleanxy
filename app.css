@@ -304,3 +304,66 @@ body{
 }
 
 
+#Contact .footerContainer
+{
+  display: flex;
+  background-color: #F3FBFF;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 50px;
+  height: 400px;
+}
+
+.footerContainer .col-lg-3
+{
+  width: 350px;
+}
+
+.footerContainer .row
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  margin: 0 0 15px 0;
+}
+.footerContainer .headis
+{
+  font-weight: bold;
+}
+
+.footerLogoWrapper
+{
+  width:300px;
+  margin: 0 auto;
+
+}
+
+.footerLogoContainer
+{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.logoWrapper
+{
+  width:30px;
+  aspect-ratio: 1;
+  background-color: #E5F8FC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.footerSocials
+{
+  width: 16px;
+  display: inline-block;
+  aspect-ratio: 1;
+  top:-20px;
+}
+
+
+
+
