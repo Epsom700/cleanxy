@@ -41,7 +41,7 @@ body{
   margin-bottom: 30px;
 }
 
-#mainNavbar img{
+#mainNavbar .brand{
   width: 80px;
 }
 
