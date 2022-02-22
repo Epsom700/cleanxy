@@ -199,6 +199,28 @@ body{
   line-height: 72px;
 }
 
+/* contact and information section */
+
+.delta{
+  height: 33.3vh;
+  background-color: #F3FBFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headis{
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 14px;
+  opacity: 1;
+}
+
+.line1{
+  justify-content: flex-start;
+  margin-bottom:16px;
+}
+
 @media (max-width: 1000px) {
 
   #mainNavbar .oned{
