@@ -109,18 +109,6 @@ body{
   margin:30px 0;
 }
 
-.line{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.line hr{
-  opacity: 1;
-  background-color: black;
-  width: 3px;
-  height: 80px;
-}
-
 .wrapper {
   width: 200px;
   height: 180px;
@@ -199,25 +187,116 @@ body{
 }
 
 /* contact and information section */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&family=Poppins:ital,wght@0,500;1,300;1,400&display=swap');
 
+
+.sec4{
+  display: flex;
+}
+.heads1{
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 2.25rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.blue{
+  color: #00ADD0;
+}
 .delta{
-  height: 33.3vh;
+  min-height: 33.3vh;
   background-color: #F3FBFF;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
 
 .headis{
   flex-direction: column;
   justify-content: flex-start;
   margin-bottom: 14px;
-  opacity: 1;
 }
 
 .line1{
   justify-content: flex-start;
   margin-bottom:16px;
+  opacity: 0.6;
+}
+
+
+@media (max-width:1400px){
+  .wrapper {
+    width: 150px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    margin-left:-80px;
+  }
+  
+  .or-separator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+  }
+  
+  .vertical-line {
+    border-left: 2px solid #000000;
+    flex-grow: 1;
+    width: 1px;
+  }
+}
+
+
+@media (max-width:1300px) {
+  .image2{
+    display: none;
+  }
+  .aboutCle{
+    display: flex;
+    margin-left: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .aobut{
+    justify-content: space-between;
+  }
+
+  .heads1{
+    font-size: 1.75rem;
+  }
+
+  .wrapper {
+    width: 150px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    margin-left:-80px;
+  }
+  
+}
+
+@media (max-width:1200px){
+  .wrapper {
+    width: 140px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left:-60px;
+  }
+  
+}
+
+@media (max-width:1100px){
+  .heads1{
+    font-size: 1.5rem;
+  }
+  
 }
 
 @media (max-width: 1000px) {
@@ -308,17 +387,15 @@ body{
 {
   display: flex;
   background-color: #F3FBFF;
-  justify-content: space-around;
-  flex-direction: row;
   align-items: flex-start;
   padding-top: 50px;
-  height: 400px;
+
 }
 
-.footerContainer .col-lg-3
+/* .footerContainer .col-lg-3
 {
   width: 350px;
-}
+} */
 
 .footerContainer .row
 {
