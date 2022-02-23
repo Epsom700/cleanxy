@@ -168,6 +168,7 @@ body{
 }
 .tableCol{
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items:center ;
 }
@@ -306,6 +307,7 @@ body{
     flex-direction: column;
       justify-content: center;
       align-items: center;
+      text-align: center;
   }
 
   .image1{
@@ -337,6 +339,14 @@ body{
     box-sizing:content-box;
   }
 }
+
+
+@media (max-width:500px){
+  .tableCol{
+    font-size: 0.6rem;
+  }
+}
+
 
 .blueButton {
   position: absolute;
