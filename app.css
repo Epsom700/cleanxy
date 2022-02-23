@@ -302,6 +302,8 @@ body{
 @media (max-width: 1000px) {
 
   #mainNavbar .oned{
+    display: flex;
+    flex-direction: column;
       justify-content: center;
       align-items: center;
   }
