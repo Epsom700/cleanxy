@@ -14,8 +14,9 @@ body{
 #mainNavbar{
   background-color: white;
   display: flex;
+  margin:0 20px;
     margin: 25px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 100;
 }
 
@@ -188,8 +189,6 @@ body{
 }
 
 /* contact and information section */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&family=Poppins:ital,wght@0,500;1,300;1,400&display=swap');
-
 
 .sec4{
   display: flex;
@@ -227,6 +226,11 @@ body{
   opacity: 0.6;
 }
 
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}}
 
 @media (max-width:1400px){
   .wrapper {
@@ -411,7 +415,6 @@ body{
 
 .footerContainer .row
 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 200;
   margin: 0 0 15px 0;
 }
